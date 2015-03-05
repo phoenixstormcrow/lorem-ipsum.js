@@ -35,12 +35,12 @@ var loremIpsum = require('knicklabs-lorem-ipsum.js')
 
 ### Customizing the Output with Options (Node.js/Component.js)
 
-You can pass options to the loremIpsum() function to fine-tune the output. The API is the same on client and server. See below: 
+You can pass options to the loremIpsum() function to fine-tune the output. The API is the same on client and server. See below:
 
 ```javascript
 ...
 output = loremIpsum({
-    count: 1                      // Number of words, sentences, or paragraphs to generate.
+    count: 0                      // Number of words, sentences, or paragraphs to generate.
   , units: 'sentences'            // Generate words, sentences, or paragraphs.
   , sentenceLowerBound: 5         // Minimum words per sentence.
   , sentenceUpperBound: 15        // Maximum words per sentence.
